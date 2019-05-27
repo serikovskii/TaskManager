@@ -1,0 +1,30 @@
+﻿<Window x:Class="TaskManager.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskManager.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <DataGrid Name="earthQuakeGrid" Grid.Row="0" Height="auto" Margin="5" AutoGenerateColumns="False" BorderBrush="{x:Null}" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Имя" Binding="{Binding Path=Properties.Place}" />
+                <DataGridTextColumn Header="ИД" Binding="{Binding Path=Properties.Mag}"/>
+                <DataGridTextColumn Header="Состояние" Binding="{Binding Path=Properties.Sig}"/>
+                <DataGridTextColumn Header="Имя Пользователя" Binding="{Binding Path=Properties.Time}"/>
+                <DataGridTextColumn Header="ЦП" Binding="{Binding Path=Properties.Time}"/>
+                <DataGridTextColumn Header="Память" Binding="{Binding Path=Properties.Time}"/>
+                <DataGridTextColumn Header="Описание" Binding="{Binding Path=Properties.Time}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <Button Name="remove" Content="Снять задачу" Width="130" Click="UpdateButton" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>
