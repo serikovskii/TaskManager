@@ -1,0 +1,15 @@
+C:\Users\МукушевА.CORP\source\repos\TaskManager\TaskManager.WPF\obj\Debug\TaskManager.WPF.csprojAssemblyReference.cache
+C:\Users\МукушевА.CORP\source\repos\TaskManager\TaskManager.WPF\obj\Debug\MainWindow.g.cs
+C:\Users\МукушевА.CORP\source\repos\TaskManager\TaskManager.WPF\obj\Debug\App.g.cs
+C:\Users\МукушевА.CORP\source\repos\TaskManager\TaskManager.WPF\obj\Debug\TaskManager.WPF_MarkupCompile.cache
+C:\Users\МукушевА.CORP\source\repos\TaskManager\TaskManager.WPF\obj\Debug\TaskManager.WPF_MarkupCompile.lref
+C:\Users\МукушевА.CORP\source\repos\TaskManager\TaskManager.WPF\bin\Debug\TaskManager.WPF.exe.config
+C:\Users\МукушевА.CORP\source\repos\TaskManager\TaskManager.WPF\bin\Debug\TaskManager.WPF.exe
+C:\Users\МукушевА.CORP\source\repos\TaskManager\TaskManager.WPF\bin\Debug\TaskManager.WPF.pdb
+C:\Users\МукушевА.CORP\source\repos\TaskManager\TaskManager.WPF\obj\Debug\MainWindow.baml
+C:\Users\МукушевА.CORP\source\repos\TaskManager\TaskManager.WPF\obj\Debug\TaskManager.WPF.g.resources
+C:\Users\МукушевА.CORP\source\repos\TaskManager\TaskManager.WPF\obj\Debug\TaskManager.WPF.Properties.Resources.resources
+C:\Users\МукушевА.CORP\source\repos\TaskManager\TaskManager.WPF\obj\Debug\TaskManager.WPF.csproj.GenerateResource.cache
+C:\Users\МукушевА.CORP\source\repos\TaskManager\TaskManager.WPF\obj\Debug\TaskManager.WPF.csproj.CoreCompileInputs.cache
+C:\Users\МукушевА.CORP\source\repos\TaskManager\TaskManager.WPF\obj\Debug\TaskManager.WPF.exe
+C:\Users\МукушевА.CORP\source\repos\TaskManager\TaskManager.WPF\obj\Debug\TaskManager.WPF.pdb

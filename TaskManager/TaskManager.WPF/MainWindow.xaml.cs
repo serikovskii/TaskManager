@@ -16,22 +16,37 @@ using System.Windows.Shapes;
 
 namespace TaskManager.WPF
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
-
+            InitTaskManager();
         }
 
         public void InitTaskManager()
         {
             var processes = Process.GetProcesses();
-            ProcessesViewModel[] processesViewModel;
-           
+            processesName.ItemsSource = processes;
         }
+
+        private void RemoveProcesses(object sender, RoutedEventArgs e)
+        {
+            var processes = Process.GetProcesses();
+            var sort = processesName.SelectedIndex;
+            if (sort != -1)
+            {
+                var procRemove = Process.GetProcessesByName(processes[sort].ProcessName);
+                foreach (var proc in procRemove)
+                {
+                    proc.Kill();
+                }
+                MessageBox.Show($"{processes[sort].ProcessName} - удалили");
+                InitTaskManager();
+            }
+            else
+                MessageBox.Show("Выберете задачу");
+        }
+
     }
 }
